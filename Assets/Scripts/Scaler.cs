@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Scaling : MonoBehaviour
+public class Scaler : MonoBehaviour
 {
-    [Range(0.01f, 0.2f)]
+    [Range(0.01f, 1f)]
     [SerializeField] private float _speedScale;
-    [SerializeField] private Vector3 _targetSize = Vector3.one;
+    [SerializeField] private Vector3 _targetSize;
 
     private void Update()
     {
