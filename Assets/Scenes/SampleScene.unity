@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 868bca88d848778408357836e57bf29f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedScale: 0.2
+  _speed: 1.105
   _targetSize: {x: 2, y: 2, z: 2}
 --- !u!1 &705507993
 GameObject:
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 868bca88d848778408357836e57bf29f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedScale: 2
+  _speed: 2
   _targetSize: {x: 5, y: 5, z: 5}
 --- !u!114 &1645889134
 MonoBehaviour:
@@ -519,7 +519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e49a57505381b674f87e003a41d6bb44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedRotation: 20
+  _speed: 150
 --- !u!114 &1645889135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -532,7 +532,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce1fc74588b47e4083cada2f42b23cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedMove: 1
+  _speed: 5
+  _worldDirection: 1
 --- !u!1 &1654245143
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,7 +565,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce1fc74588b47e4083cada2f42b23cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedMove: 3
+  _speed: 5
+  _worldDirection: 0
 --- !u!23 &1654245146
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -726,7 +728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e49a57505381b674f87e003a41d6bb44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedRotation: 40
+  _speed: 45
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
