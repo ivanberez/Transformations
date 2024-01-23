@@ -7,5 +7,6 @@ public class Rotator : MonoBehaviour
     private void Update()
     {
         transform.RotateAround(transform.position, transform.up, _speedRotation * Time.deltaTime);
+
     }
 }
